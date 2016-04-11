@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[【PASS】 [GetFrontTourOrderList001]GetFrontTourOrderList获取用户最新的几条订单信息，不带分页，范围：（观光、度假、邮轮，单项、酒店）接口正确]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="665" started-at="2016-01-14T06:33:19Z" finished-at="2016-01-14T06:33:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="665" started-at="2016-01-14T06:33:19Z" finished-at="2016-01-14T06:33:19Z">
+      <class name="com.aoyou.test.cases.orderservice.GetFrontTourOrderList001">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aoyou.test.cases.orderservice.GetFrontTourOrderList001@1f6c18]" name="setUp" is-config="true" duration-ms="6" started-at="2016-01-14T14:33:19Z" finished-at="2016-01-14T14:33:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getFrontTourOrderList001()[pri:0, instance:com.aoyou.test.cases.orderservice.GetFrontTourOrderList001@1f6c18]" name="getFrontTourOrderList001" duration-ms="649" started-at="2016-01-14T14:33:19Z" finished-at="2016-01-14T14:33:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[【PASS】 [GetFrontTourOrderList001]GetFrontTourOrderList获取用户最新的几条订单信息，不带分页，范围：（观光、度假、邮轮，单项、酒店）接口正确]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getFrontTourOrderList001 -->
+      </class> <!-- com.aoyou.test.cases.orderservice.GetFrontTourOrderList001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

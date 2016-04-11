@@ -1,0 +1,60 @@
+<suite name="Web Interface">
+	<listeners>
+		 <listener class-name="com.aoyou.test.listener.TestngListener" />
+	     <listener class-name="com.aoyou.test.listener.ReportListener" />
+	</listeners>
+
+<test name="App3.5接口" preserve-order="true">
+    <classes>
+    	<class name="com.aoyou.test.app35.testcases.MemberLogin_001"/>	
+        <class name="com.aoyou.test.app35.testcases.AddAttachment_001"/>
+        <class name="com.aoyou.test.app35.testcases.AddMessageHits_001"/>
+        <class name="com.aoyou.test.app35.testcases.DepartureCity_001"/>
+        <class name="com.aoyou.test.app35.testcases.DestinationCityForAppIndex_001"/>
+        <class name="com.aoyou.test.app35.testcases.DestinationCity_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetActivityDepartCityList_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetActivityDestCityList_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetActivityHotSaleProducts_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetActivityList_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetActivityPanicBuyingProducts_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetActivityProductList_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetActivityProductTypes_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetADInfoBySpaceGUID_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetAllOrderList_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetAppIndexAds_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetCombinedProductPriceCalendar_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetCouponsInfoByUserID_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetDeptCityAds_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetFastExpirePoint_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetHomePageMessageInfo_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetIndexRecommendProduct_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetIsCombinedByProductID_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetMemberMainData_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetMemberPointAllData_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetMemberPoint_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetMember_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetNewActivityPanicBuyingProducts_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetNewMessageInfo_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetPopularSearchList_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetPostList_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetSearchList_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetSingleCombinedFreeProduct_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetTerms_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetTicketCityList_001"/>
+        <class name="com.aoyou.test.app35.testcases.GetTopicList_001"/>       
+        <class name="com.aoyou.test.app35.testcases.MemberRegister_001"/>
+        <class name="com.aoyou.test.app35.testcases.MessageIsShowRedPoint_001"/>
+        <class name="com.aoyou.test.app35.testcases.ModifyMemberPassword_001"/>
+        <class name="com.aoyou.test.app35.testcases.ModifyMemebrInfo_001"/>
+        <class name="com.aoyou.test.app35.testcases.ProductSearchIndex_001"/>
+        <class name="com.aoyou.test.app35.testcases.ReplyThread_001"/>
+        <class name="com.aoyou.test.app35.testcases.SearchMemberPointDetail_001"/>
+        <class name="com.aoyou.test.app35.testcases.SearchNew_001"/>
+        <class name="com.aoyou.test.app35.testcases.SendMemberMobileVerifyCode4ForgetPassword_001"/>
+        <class name="com.aoyou.test.app35.testcases.SendMemberMobileVerifyCode_001"/>
+        <class name="com.aoyou.test.app35.testcases.SendOldMobileVerifyCode_001"/>
+        <class name="com.aoyou.test.app35.testcases.UpdateMessageStatus_001"/>
+    </classes>
+</test>
+	
+</suite>

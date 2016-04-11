@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+	<!-- 接口地址  -->
+	<urls>
+	    
+		<url version="app3.5" loginname="18612370907" password="Fiona19870907">http://mservice.aoyou.com/api35</url>
+		
+		<url version="app3.0" loginname="" password="">http://mservice.aoyou.com/</url>
+		
+	</urls>
+	  
+	<!-- 接口信息 -->
+	<methods>
+	
+		<method description="获取最新消息" name="GetNewMessageInfo" resource="/Message/GetNewMessageInfo"/>
+		
+		<method description="获取服务器时间" name="GetHostTime" resource="/BaseInfo/GetHostTime"/>
+		
+		<method description="获取最新版本" name="GetLatestVersion" resource="/BaseInfo/GetLatestVersion"/>
+		
+		<method description="添加消息点击量" name="AddMessageHits" resource="/Message/AddMessageHits"/>
+		
+		<method description="更新消息读取状态" name="UpdateMessageStatus" resource="/Message/UpdateMessageStatus"/>
+		
+		<method description="获取首页傲游头条消息" name="GetHomePageMessageInfo" resource="/Message/GetHomePageMessageInfo"/>
+		
+		<method description="获取出发地城市信息" name="DepartureCity" resource="/baseInfo/DepartureCity"/>
+		
+		<method description="获取目的地城市信息" name="DestinationCity" resource="/baseInfo/DestinationCity"/>
+		
+		<method description="获取首页推荐列表" name="GetActivityList" resource="/BaseInfo/GetActivityList"/>
+		
+		<method description="获取首页广告列表" name="GetAppIndexAds" resource="/BaseInfo/GetAppIndexAds"/>
+		
+		<method description="" name="GetThursdayProduct" resource="/BaseInfo/GetThursdayProduct"/>
+		
+		<method description="" name="GetMemberHeadPicture" resource="/Member/GetMemberHeadPicture"/>
+		
+		<method description="" name="GetIndexRecommendProduct" resource="/BaseInfo/GetIndexRecommendProduct"/>
+		
+		<method description="" name="GetIndexRecommendProduct" resource="/BaseInfo/GetIndexRecommendProduct"/>
+		
+		<method description="" name="GetTerms" resource="/AYBang/GetTerms"/>
+		
+		<method description="" name="GetADInfoBySpaceGUID" resource="/BaseInfo/GetADInfoBySpaceGUID"/>
+		
+		<method description="" name="MessageIsShowRedPoint" resource="/Message/MessageIsShowRedPoint"/>
+		
+		<method description="" name="GetSearchList" resource="/BBS/GetSearchList"/>
+		
+		<method description="" name="GetTopicList" resource="/BBS/GetTopicList"/>
+		
+		<method description="" name="GetUserList" resource="/BBS/GetUserList"/>
+		
+		<method description="" name="GetPostList" resource="/BBS/GetPostList"/>
+		
+		<method description="" name="SendThread" resource="/BBS/SendThread"/>
+		
+		<method description="" name="LoginEncrypt" resource="Member/LoginEncrypt"/>
+		
+		<method description="" name="AddAttachment" resource="/BBS/AddAttachment"/>
+		
+		<method description="" name="GetRecentUseTag" resource="/BBS/GetRecentUseTag"/>
+		
+		<method description="" name="GetThreadInfoByCityInfo" resource="/BBS/GetThreadInfoByCityInfo"/>
+		
+		<method description="" name="GetADInfoBySpaceGUID" resource="/BaseInfo/GetADInfoBySpaceGUID"/>
+		
+		<method description="" name="ReplyThread" resource="/BBS/ReplyThread"/>
+		
+		<method description="" name="PostSupport" resource="/BBS/PostSupport"/>
+		
+		<method description="" name="GetSupportStatus" resource="/BBS/GetSupportStatus"/>
+		
+		<method description="" name="DeleteThread" resource="/BBS/DeleteThread"/>
+		
+		<method description="" name="ProductSearchIndex" resource="/ProductSearch/Index"/>
+		
+		<method description="" name="Search" resource="/ProductSearch/Search"/>
+		
+		<method description="" name="GetPopularSearchList" resource="/ProductSearch/GetPopularSearchList"/>
+		
+		<method description="" name="GetDeptCityAds" resource="/BaseInfo/GetDeptCityAds"/>
+		
+		<method description="" name="GetActivityPanicBuyingProducts" resource="/ActivityProduct/GetActivityPanicBuyingProducts"/>
+		
+		<method description="" name="GetActivityHotSaleProducts" resource="/ActivityProduct/GetActivityHotSaleProducts"/>
+		
+		<method description="" name="GetActivityProductList" resource="/ActivityProduct/GetActivityProductList"/>
+		
+		<method description="" name="GetActivityDepartCityList" resource="/ActivityProduct/GetActivityDepartCityList"/>
+		
+		<method description="" name="GetActivityProductTypes" resource="/ActivityProduct/GetActivityProductTypes"/>
+		
+		<method description="" name="GetActivityDestCityList" resource="/ActivityProduct/GetActivityDestCityList"/>
+		
+		<method description="" name="DestinationCityForAppIndex" resource="/baseInfo/DestinationCityForAppIndex"/>
+		
+		<method description="" name="GetTicketCityList" resource="/Ticket/GetTicketCityList"/>
+		
+		<method description="" name="SearchNew" resource="/ProductSearch/SearchNew"/>
+		
+		<method description="" name="GetCouponsInfoByUserID" resource="/Coupon/GetCouponsInfoByUserID"/>
+		
+		<method description="" name="BindCoupon2Member" resource="/Coupon/BindCoupon2Member"/>
+		
+		<method description="" name="GetCouponsByCode" resource="/Coupon/GetCouponsByCode"/>
+		
+		<method description="" name="MemberLogin" resource="/Member/MemberLogin"/>
+		
+		<method description="" name="MemberRegister" resource="/Member/MemberRegister"/>	
+		
+		<method description="" name="GetMember" resource="/Member/GetMember"/>
+		
+		<method description="" name="GetMemberPointAllData" resource="/Member/GetMemberPointAllData"/>
+		
+		<method description="" name="ModifyMemberPassword" resource="/Member/ModifyMemberPassword"/>
+		
+		<method description="" name="ModifyMemebrInfo" resource="/Member/ModifyMemebrInfo"/>
+		
+		<method description="" name="SendMemberMobileVerifyCode" resource="/Member/SendMemberMobileVerifyCode"/>
+		
+		<method description="" name="SendMemberMobileVerifyCode4ForgetPassword" resource="/Member/SendMemberMobileVerifyCode4ForgetPassword"/>	
+		
+		<method description="" name="GetMemberMainData" resource="/Member/GetMemberMainData"/>	
+		
+		<method description="" name="SendOldMobileVerifyCode" resource="/Member/SendOldMobileVerifyCode"/>
+		
+		<method description="" name="GetNewActivityPanicBuyingProducts" resource="/ActivityProduct/GetNewActivityPanicBuyingProducts"/>
+	
+		<method description="" name="GetAllOrderList" resource="/Order/GetAllOrderList"/>
+		
+		<method description="" name="SearchMemberPointDetail" resource="/Member/SearchMemberPointDetail"/>	
+		
+		<method description="" name="GetFastExpirePoint" resource="/Member/GetFastExpirePoint"/>
+		
+		<method description="" name="GetMemberPoint" resource="/Member/GetMemberPoint"/>
+		
+		<method description="" name="GetCombinedProductPriceCalendar" resource="/ProductInfo/GetCombinedProductPriceCalendar"/>
+		
+		<method description="" name="GetIsCombinedByProductID" resource="/PackageProduct/GetIsCombinedByProductID"/>
+		
+		<method description="" name="MemberUploadAvatar" resource="/Member/MemberUploadAvatar"/>
+		
+		<method description="" name="GetSingleCombinedFreeProduct" resource="/ProductInfo/GetSingleCombinedFreeProduct"/>
+				
+		<method description="" name="DepartureCityVersion" resource="/baseInfo/DepartureCityVersion"/>
+		
+		<method description="" name="DepartureCity" resource="/baseInfo/DepartureCity"/>
+		
+		<method description="" name="DestinationCityVersion" resource="/baseInfo/DestinationCityVersion"/>
+		
+		<method description="" name="DestinationCity" resource="/baseInfo/DestinationCity"/>
+		
+		<method description="" name="TicketSearch" resource="/Ticket/Search"/>
+		
+		<method description="" name="TicketIndex" resource="/Ticket/Index"/>
+		
+		<method description="" name="AttrSummary" resource="/Ticket/AttrSummary"/>
+		
+		<method description="" name="AttrTraffic" resource="/Ticket/AttrTraffic"/>
+		
+		<method description="" name="AttrBookNotice" resource="/Ticket/AttrBookNotice"/>
+		
+		<method description="" name="TicketSelect" resource="/Ticket/Select"/>
+		
+		<method description="" name="TicketPrice" resource="/Ticket/Price"/>
+		
+		<method description="" name="Create" resource="/Ticket/Create"/>
+		
+		<method description="" name="LuckyDraw" resource="/ShakePreferential/LuckyDraw"/>
+		
+		<method description="" name="CouponBindMember" resource="/ShakePreferential/CouponBindMember"/>
+		
+		<method description="" name="CreateActivityOrder" resource="/ShakePreferential/CreateActivityOrder"/>
+		
+		<method description="" name="ActivityProductIndex" resource="/ActivityProduct/Index"/>
+		
+		<method description="" name="SingleDiscountProduct" resource="/ActivityProduct/SingleDiscountProduct"/>
+		
+		<method description="" name="ActivityFree" resource="/Reservation/ActivityFree"/>
+		
+		<method description="" name="ActivityGroup" resource="/Reservation/ActivityGroup"/>
+		
+		<method description="" name="Free" resource="/Reservation/Free"/>
+		
+		<method description="" name="Group" resource="/Reservation/Group"/>
+		
+		<method description="" name="SingleIndex" resource="/Single/Index"/>
+		
+		<method description="" name="SingleProduct" resource="/SingleProduct"/>
+		
+		<method description="" name="GetActivityList" resource="/Activity/GetActivityList"/>
+		
+		<method description="" name="GetActivity" resource="/Activity/GetActivity"/>
+		
+		<method description="" name="GetSingleGroupProduct" resource="/ProductInfo/GetSingleGroupProduct"/>
+		
+		<method description="" name="GetSingleFreeProduct" resource="/ProductInfo/GetSingleFreeProduct"/>
+		
+		<method description="" name="ProductSearch" resource="/ProductInfo/ProductSearch"/>
+		
+		<method description="" name="CanPay" resource="/Payment/CanPay"/>
+		
+		<method description="" name="InitialPay" resource="/Payment/InitialPay"/>
+		
+		<method description="" name="ConfirmPay" resource="/Payment/ConfirmPay"/>
+		
+		<method description="" name="GetJourneyViewInfo" resource="/Journey/GetJourneyViewInfo"/>
+		
+		<method description="" name="GetAoyouMangerInfo" resource="/Journey/GetAoyouMangerInfo"/>
+		
+		<method description="" name="GetSigleJourneyViewInfo" resource="/Journey/GetSigleJourneyViewInfo"/>
+		
+		<method description="" name="DeleteJourneyViewInfo" resource="/Journey/DeleteJourneyViewInfo"/>
+		
+		<method description="" name="AddJourneyViewInfo" resource="/Journey/AddJourneyViewInfo"/>
+		
+		<method description="" name="GetForSingleInfo" resource="/ForSingle/GetForSingleInfo"/>
+		
+		<method description="" name="GetNoticeViewInfo" resource="/ForSingle/GetNoticeViewInfo"/>
+		
+		<method description="" name="AddNoticeViewInfo" resource="/ForSingle/AddNoticeViewInfo"/>
+		
+		<method description="" name="AddtForSingleInfo" resource="/ForSingle/AddtForSingleInfo"/>
+		
+		<method description="" name="DeleteForSingleInfo" resource="/ForSingle/DeleteForSingleInfo"/>
+		
+		<method description="" name="DeleteNoticeInfo" resource="/ForSingle/DeleteNoticeInfo"/>
+		
+		<method description="" name="GetVisaCountryList" resource="/Visa/GetVisaCountryList"/>
+		
+		<method description="" name="GetVisaTypeInfo" resource="/Visa/GetVisaTypeInfo"/>
+		
+		<method description="" name="GetVisaInfo" resource="/Visa/GetVisaInfo"/>
+		
+		<method description="" name="GetProductSpecList" resource="/ProductMoblie/GetProductSpecList"/>
+		
+		<method description="" name="GetProductSpec" resource="/ProductMoblie/GetProductSpec"/>
+		
+		<method description="" name="GetBankInfoList" resource="/BankInfo/GetBankInfoList"/>
+		
+		<method description="" name="GetPreferredMerchantList" resource="/BankInfo/GetPreferredMerchantList"/>
+		
+		<method description="" name="GetPreferredMerchant" resource="/BankInfo/GetPreferredMerchant"/>
+		
+		<method description="" name="GetJourneyRecommend" resource="/Journey/GetJourneyRecommend"/>
+		
+		<method description="" name="GetProductSpecListCurrent" resource="/ProductMoblie/GetProductSpecListCurrent"/>
+		
+		<method description="" name="Register" resource="/Member/Register"/>
+		
+		<method description="" name="Login" resource="/Member/Login"/>
+		
+		<method description="" name="GetMemberInfo" resource="/Member/GetMemberInfo"/>
+		
+		<method description="" name="UpdateMemberInfo" resource="/Member/UpdateMemberInfo"/>
+		
+		<method description="" name="ChangePwd" resource="/Member/ChangePwd"/>
+		
+		<method description="" name="GetMemberVouchers" resource="/Member/GetMemberVouchers"/>
+		
+		<method description="" name="GetMemberVoucherCount" resource="/Member/GetMemberVoucherCount"/>
+		
+		<method description="" name="AddVoucher" resource="/Member/AddVoucher"/>
+		
+		<method description="" name="GetMemberTotalPoint" resource="/Member/GetMemberTotalPoint"/>
+		
+		<method description="" name="GetMemberPointDetailList" resource="/Member/GetMemberPointDetailList"/>
+		
+		<method description="" name="GetMemberTravellerList" resource="/Member/GetMemberTravellerList"/>
+		
+		<method description="" name="AddOrUpdateMemberTraveller" resource="/Member/AddOrUpdateMemberTraveller"/>
+		
+		<method description="" name="DeleteMemberTraveller" resource="/Member/DeleteMemberTraveller"/>
+		
+		<method description="" name="GetMemberOrderList" resource="/Member/GetMemberOrderList"/>
+		
+		<method description="" name="GetMemberTravelOrderDetail" resource="/Member/GetMemberTravelOrderDetail"/>
+		
+		<method description="" name="GetMemberFreeTourOrderAH" resource="/Member/GetMemberFreeTourOrderAH"/>
+		
+		<method description="" name="GetMemberElemOrderDetail" resource="/Member/GetMemberElemOrderDetail"/>
+		
+		<method description="" name="CancelMemberOrder" resource="/Member/CancelMemberOrder"/>
+		
+		<method description="" name="GetMemberProFreeTourOrderAH" resource="/Member/GetMemberProFreeTourOrderAH"/>
+		
+		<method description="" name="UploadTravelPic" resource="/Member/UploadTravelPic"/>
+		
+		<method description="" name="GetTravelPics" resource="/Member/GetTravelPics"/>
+		
+		<method description="" name="SubmitFeedback" resource="/Member/SubmitFeedback"/>
+		
+		<method description="" name="GetCertificateCardType" resource="/BaseInfo/GetCertificateCardType"/>
+		
+		<method description="" name="GetTravelCardType" resource="/BaseInfo/GetTravelCardType"/>
+		
+		<method description="" name="GetAllCountry" resource="/BaseInfo/GetAllCountry"/>
+		
+		<method description="" name="GetProvince" resource="/BaseInfo/GetProvince"/>
+		
+		<method description="" name="GetRecommandApps" resource="/BaseInfo/GetRecommandApps"/>
+		
+		<method description="" name="AgreeReceiveMessage" resource="/Member/AgreeReceiveMessage"/>
+		
+		<method description="" name="RefuseReceiveMessage" resource="/Member/RefuseReceiveMessage"/>
+		
+		<method description="" name="GetFreeTourSalesItemViewList" resource="/ProductInfo/GetFreeTourSalesItemViewList"/>
+		
+		<method description="" name="GetGroupTourSalesItemViewList" resource="/ProductInfo/GetGroupTourSalesItemViewList"/>
+		
+		<method description="" name="GetFreeTourBookingInputView" resource="/Booking/GetFreeTourBookingInputView"/>
+		
+		<method description="" name="GetGroupTourBookingInputView" resource="/Booking/GetGroupTourBookingInputView"/>
+		
+		<method description="" name="FreeTourBookingContractTemplate" resource="/Booking/FreeTourBookingContractTemplate"/>
+		
+		<method description="" name="GroupBookingContractTemplate" resource="/Booking/GroupBookingContractTemplate"/>
+		
+		<method description="" name="GetAdditionProductListAdditionProductList" resource="/ProductInfo/GetAdditionProductListAdditionProductList"/>
+		
+		<method description="" name="NoneMemberRegister" resource="/Member/NoneMemberRegister"/>
+		
+		<method description="" name="GetJourneyRecommend" resource="/Journey/GetJourneyRecommend"/>
+		
+		<method description="" name="GetAds" resource="/BaseInfo/GetAds"/>
+		
+		<method description="" name="GetLatestVersion" resource="/BaseInfo/GetLatestVersion"/>
+		
+		<method description="" name="GetDataLatestVersion" resource="/BaseInfo/GetDataLatestVersion"/>
+		
+		<method description="" name="GetDiscusscInfo" resource="/GetDiscusscInfo"/>
+		
+		<method description="" name="ThursdayGroup" resource="/ActivityProduct/ThursdayGroup"/>
+		
+		<method description="" name="LuckyShakeDesc" resource="/ShakePreferential/LuckyShakeDesc"/>
+		
+		<method description="" name="LuckyDrawCount" resource="/ShakePreferential/LuckyDrawCount"/>
+		
+		<method description="" name="GerMemberPWDByMobile" resource="/Member/GerMemberPWDByMobile"/>
+		
+		<method description="" name="GerMemberPWDByEmail" resource="/Member/GerMemberPWDByEmail"/>
+		
+		<method description="" name="GetMessageHistoryList" resource="/MessageHistory/GetMessageHistoryList"/>
+		
+		<method description="" name="IsSetStewardInfo" resource="/Steward/IsSetStewardInfo"/>
+		
+		<method description="" name="AddtStewardInfo" resource="/Steward/AddtStewardInfo"/>
+		
+		<method description="" name="GetWelcomeString" resource="/MessageHistory/GetWelcomeString"/>
+		
+		<method description="" name="GetBeginCityList" resource="/ActivityProduct/GetBeginCityList"/>
+		
+		<method description="" name="GetDestCityList" resource="/ActivityProduct/GetDestCityList"/>
+		
+		<method description="" name="GetPriceRangeList" resource="/GetPriceRangeList"/>
+		
+		<method description="" name="GetProductListByCondition" resource="/ActivityProduct/GetProductListByCondition"/>
+		
+		<method description="" name="UnionOrderInitialPay" resource="/Payment/UnionOrderInitialPay"/>
+		
+		<method description="" name="UnionOrderConfirmPay" resource="/Payment/UnionOrderConfirmPay"/>
+		
+		<method description="" name="GetHostTime" resource="/BaseInfo/GetHostTime"/>
+		
+		<method description="" name="GetForSingInfoCountByIsRead" resource="/ForSingle/GetForSingInfoCountByIsRead"/>
+		
+		<method description="" name="GetActivityFreeTourBookingInputView" resource="/Booking/GetActivityFreeTourBookingInputView"/>
+		
+		<method description="" name="GetActivityGroupTourBookingInputView" resource="/Booking/GetActivityGroupTourBookingInputView"/>
+		
+		<method description="" name="GetElementPreReserveView" resource="/GetElementPreReserveView"/>
+		
+		<method description="" name="GetPackageContract" resource="/GetPackageContract"/>
+		
+		<method description="" name="GetFreeTourBookingAppendView" resource="/Booking/GetFreeTourBookingAppendView"/>
+		
+		<method description="" name="GetGroupContract" resource="/GetGroupContract"/>
+		
+		<method description="" name="GetGroupTourBookingAppendView" resource="/booking/GetGroupTourBookingAppendView"/>
+		
+		<method description="" name="GetSingleContract" resource="/GetSingleContract"/>
+		
+		<method description="" name="GetActivityPackageContract" resource="/GetActivityPackageContract"/>
+		
+		<method description="" name="ThursdayGroupInfo" resource="/ActivityProduct/ThursdayGroupInfo"/>
+		
+		<method description="" name="GetStewardInfo" resource="/Steward/GetStewardInfo"/>
+		
+		<method description="" name="ConfirmPayWithoutCash" resource="/Payment/ConfirmPayWithoutCash"/>
+		
+		<method description="" name="NotifyPayComplete" resource="/Payment/NotifyPayComplete"/>
+		
+		<method description="" name="NotifyPayCompleteProduction" resource="/Payment/NotifyPayCompleteProduction"/>
+		
+		<method description="" name="UnionOrderConfirmPayProduction" resource="/Payment/UnionOrderConfirmPayProduction"/>
+		
+		<method description="" name="ConfirmPayProduction" resource="/Payment/ConfirmPayProduction"/>
+		
+		<method description="" name="ElementProductSearch" resource="/ProductInfo/ElementProductSearch"/>
+		
+		<method description="" name="AddFavorite" resource="/Member/AddFavorite"/>
+		
+		<method description="" name="GetActivityGroupTourBookingAppendView" resource="/Booking/GetActivityGroupTourBookingAppendView"/>
+		
+		<method description="" name="DepartureCityByLetter" resource="/baseInfo/DepartureCityByLetter"/>
+		
+		<method description="" name="GetMemberTicketOrderDetails" resource="/Member/GetMemberTicketOrderDetails"/>
+		
+		<method description="" name="ShareTraveAnnouncement" resource="/ActivityProduct/ShareTraveAnnouncement"/>
+		
+		<method description="" name="GetTravelPicsForLocation" resource="/GetTravelPicsForLocation"/>
+		
+		<method description="" name="GetTravelPicsForMemberID" resource="/Member/GetTravelPicsForMemberID"/>
+		
+		<method description="" name="PriceCalendar" resource="/Ticket/PriceCalendar"/>
+		
+		<method description="" name="GetDiscountProductByProductIDNew" resource="/ProductInfo/GetDiscountProductByProductIDNew"/>
+		
+		<method description="" name="GetTypePre" resource="/BankInfo/GetTypePre"/>
+		
+		<method description="" name="GetInfoCountry" resource="/BankInfo/GetInfoCountry"/>
+		
+		<method description="" name="GetATMAndPreferred" resource="/BankInfo/GetATMAndPreferred"/>
+		
+		<method description="" name="GetATMDetail" resource="/BankInfo/GetATMDetail"/>
+		
+		<method description="" name="GetATMView" resource="/BankInfo/GetATMView"/>
+		
+		<method description="" name="GetNoticeDetailViewInfo" resource="/ForSingle/GetNoticeDetailViewInfo"/>
+		
+		<method description="" name="DestinationAllCity" resource="/BaseInfo/DestinationAllCity"/>
+		
+		<method description="" name="GetATMBankInfo" resource="/BankInfo/GetATMBankInfo"/>
+		
+		<method description="" name="GetExceptionClause" resource="/BankInfo/GetExceptionClause"/>
+		
+		<method description="" name="GetSearchPreferredMerchant" resource="/BankInfo/GetSearchPreferredMerchant"/>
+		
+		<method description="" name="GetSearchATM" resource="/BankInfo/GetSearchATM"/>
+		
+		<method description="" name="GetInfoForCity" resource="/BankInfo/GetInfoForCity"/>
+		
+		<method description="" name="GetNameList" resource="/BankInfo/GetNameList"/>
+		
+		<method description="" name="GetInfoForCity" resource="/BankInfo/GetInfoForCity"/>
+		
+		<method description="" name="GetATMBankInfo" resource="/BankInfo/GetATMBankInfo"/>
+		
+		<method description="" name="GetPMTypeByCity" resource="/BankInfo/GetPMTypeByCity"/>
+		
+		<method description="" name="GetMemberAirOrderDetail" resource="/Member/GetMemberAirOrderDetail"/>
+		
+		<method description="" name="ForSingleCity" resource="/ForSingle/ForSingleCity"/>
+		
+		<method description="" name="UpdateNotice" resource="/ForSingle/UpdateNotice"/>
+		
+		<method description="" name="GetUserValidCouponListOfOrder" resource="/Member/GetUserValidCouponListOfOrder"/>
+		
+		<method description="" name="ActivitySingleProduct" resource="/ActivitySingleProduct"/>
+		
+		<method description="" name="UpdateProductSpecStatue" resource="/ProductMoblie/UpdateProductSpecStatue"/>
+		
+		<method description="" name="GetProductSpecLisInfo" resource="/ProductMoblie/GetProductSpecLisInfo"/>
+		
+		<method description="" name="GetProductSpecListCurrentUp" resource="/GetProductSpecListCurrentUp"/>
+		
+		<method description="" name="UpdateHistoryRead" resource="/MessageHistory/UpdateHistoryRead"/>
+		
+		<method description="" name="SearchLngAndLatForPreferredMerchant" resource="/SearchLngAndLatForPreferredMerchant"/>
+		
+		<method description="" name="SearchLngAndLatForATM" resource="/SearchLngAndLatForATM"/>
+		
+		<method description="" name="SearchLngAndLatForTicket" resource="/SearchLngAndLatForTicket"/>
+		
+		<method description="" name="Index" resource="/Log/Index"/>
+		
+		<method description="" name="GetPinYinName" resource="/BaseInfo/GetPinYinName"/>
+		
+		<method description="" name="RegisterEncrypt" resource="/Member/RegisterEncrypt"/>
+		
+		<method description="" name="NoneMemberRegisterEncrypt" resource="/Member/NoneMemberRegisterEncrypt"/>
+		
+		<method description="" name="LoginEncrypt" resource="/Member/LoginEncrypt"/>
+		
+		<method description="" name="GetDiscountProductList" resource="/ActivityProduct/GetDiscountProductList"/>
+		
+		<method description="" name="SearchAll" resource="/ProductInfo/SearchAll"/>
+		
+		<method description="" name="UploadTravelPic" resource="/Member/UploadTravelPic"/>
+		
+		<method description="" name="GetQiniuKey" resource="/BaseInfo/GetQiniuKey"/>
+		
+		<method description="" name="CallBackUrlFunction" resource="/BaseInfo/CallBackUrlFunction"/>
+		
+		<method description="" name="AnnouncementWhenShare" resource="/ActivityProduct/AnnouncementWhenShare"/>
+		
+		<method description="" name="SearchRegionNameByTag" resource="/BaseInfo/SearchRegionNameByTag"/>
+		
+		<method description="" name="GetActivityElementPreReserveView" resource="/Booking/GetActivityElementPreReserveView"/>
+		
+		<method description="" name="GetDiscountTicketTypePrice" resource="/ActivityProduct/GetDiscountTicketTypePrice"/>
+		
+		<method description="" name="ActivityTickeProduct" resource="/Reservation/ActivityTickeProduct"/>
+		
+		<method description="" name="GetMemberOrderBySubIDDetail" resource="/Member/GetMemberOrderBySubIDDetail"/>
+		
+		<method description="" name="GetMessageHistoryList" resource="/MessageHistory/GetMessageHistoryList"/>
+		
+		<method description="" name="GetMessageHistoryListByUserIDOrDeviceID" resource="/MessageHistory/GetMessageHistoryListByUserIDOrDeviceID"/>
+		
+		<method description="" name="GetAoyouMangerInfoByUserIDOrDeviceID" resource="/Journey/GetAoyouMangerInfoByUserIDOrDeviceID"/>
+		
+		<method description="" name="AddOrUpdateMemberInfo" resource="/Member/AddOrUpdateMemberInfo"/>
+		
+		<method description="" name="GetGuanJiaCustomerInfo" resource="/GetGuanJiaCustomerInfo"/>
+		
+		<method description="" name="GetProductSpecListCurrentNew" resource="/ProductMoblie/GetProductSpecListCurrentNew"/>
+		
+		<method description="" name="GetProductSpecListCurrentUpNew" resource="/GetProductSpecListCurrentUpNew"/>		
+	
+	</methods>
+	
+	<!-- 登录信息 -->
+	<logins>
+		
+		<login version="app3.5" phone="" password="" />
+		
+		<login version="app3.0" phone="" password="" />
+		
+	</logins>
+	
+</root>

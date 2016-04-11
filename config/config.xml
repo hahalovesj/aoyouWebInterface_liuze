@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 全局配置信息 -->
+
+<config>
+
+    <!--失败用例重复执行次数--> 
+    <retryTimes>2</retryTimes>
+   
+     <!--项目测试结束后，发送邮件的相关配置 -->  
+    <mail>   
+    	 <!--发件人SMTP服务器地址-->  	
+    	<SMTPserver>owa.cytsonline.com</SMTPserver>
+    	
+    	 <!--发件人邮箱地址 -->  
+    	<from>aoyoutester@aoyou.com</from>
+    	
+    	<!--发件人邮箱有户名 -->  
+    	<username>aoyoutester</username>
+    	
+    	<!--发件人邮箱密码  coyegrjyxyxpeahv-->  
+    	<password>a1o2y3o4uCYTS#%?</password>
+    	
+    	<!--收件人邮箱地址，多个地址时以英文逗号分隔 -->  
+    	<to>liuze@aoyou.com,renwei@aoyou.com,lizhongjie@aoyou.com,gaohongxu@aoyou.com</to>
+    	
+    	<!--抄送人邮箱地址，多个地址时以英文逗号分隔 -->  
+    	<copyTo></copyTo>
+    	
+    	<!--需要添加的附件文件路径 -->  
+    	<filename></filename>
+    	
+    	<!--邮件主题 --> 
+    	<subject>自动化测试平台 Test Report    【此邮件为系统自动发送，请勿回复！有问题请及时联系自动化测试组】</subject>
+    	
+    	<!--测试项目名称 --> 
+    	<projectName>WEB接口巡查</projectName>
+      	
+    </mail>
+    
+</config>

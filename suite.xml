@@ -1,0 +1,68 @@
+<suite name="Web Interface">
+	<listeners>
+		 <listener class-name="com.aoyou.test.listener.TestngListener" />
+	     <listener class-name="com.aoyou.test.listener.ReportListener" />
+	</listeners>
+
+	<test name="WEB接口巡查" preserve-order="true">
+		<classes>
+			<class name="com.aoyou.test.cases.SearchWebsiteLogicService.Search001"/>
+			<class name="com.aoyou.test.cases.SearchWebsiteLogicService.Search002"/>
+			<!--  <class name="com.aoyou.test.cases.SearchWebsiteLogicService.Search003"/>-->
+			<class name="com.aoyou.test.cases.SearchWebsiteLogicService.Search004"/>
+			<class name="com.aoyou.test.cases.SearchWebsiteLogicService.CompareProduct001"/>
+			<class name="com.aoyou.test.cases.SearchWebsiteLogicService.GetRightSideAdvert001"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetAirSolutionViewList001"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetCombinedJourneyPrintInfo001"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetCombinedProduct001"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetCombinedProductBookingInfo001"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetCombinedProductPriceList001"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetGroupJourneyPrintInfo001"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetGroupProduct001"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetGroupProductBookingInfo001"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetGroupProductForReserve001"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetGroupProductPriceCalendar001"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetGroupProductPriceCalendarList001"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetGroupProductPriceList001"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetHotelStaySolutionViewList001"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetPackageJourneyPrintInfo001"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetPackageJourneyPrintInfo002"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetPackageProduct001"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetPackageProductBookingInfo001"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetPackageProductFlag001"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetPackageProductForReserve001"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetPackageProductPriceByDate001"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetPackageProductPriceCalendar001"/>
+			<class name="com.aoyou.test.cases.productWebsiteLogicService.GetPackageProductPriceList001"/>
+			<class name="com.aoyou.test.cases.BookingOrderService.FreeOrderReserve001"/>
+			<class name="com.aoyou.test.cases.BookingOrderService.HutongCardReserve001"/>
+			<class name="com.aoyou.test.cases.orderservice.Get_FlightOrder_Detail001"/>
+			<class name="com.aoyou.test.cases.orderservice.Get_TicketOrder_Detail001"/>
+			<class name="com.aoyou.test.cases.orderservice.Get_TouristOrder_Detail001"/>
+			<class name="com.aoyou.test.cases.orderservice.GetFlightOrderList001"/>
+			<class name="com.aoyou.test.cases.orderservice.GetFrontSelfGuidedOrderList001"/>
+			<class name="com.aoyou.test.cases.orderservice.GetMemberOrderList001"/>
+			<class name="com.aoyou.test.cases.orderservice.GetSelfGuidedOrderList001"/>
+			<class name="com.aoyou.test.cases.orderservice.GetSelfGuidiedOrderInfoDetail001"/>
+			<class name="com.aoyou.test.cases.orderservice.GetTicketOrderList001"/>
+			<class name="com.aoyou.test.cases.orderservice.GetTouristOrderListByType001"/>
+			<class name="com.aoyou.test.cases.orderservice.GetTourOrderList001"/>
+			<class name="com.aoyou.test.cases.orderservice.GetContractPath001"/>
+			<class name="com.aoyou.test.cases.orderservice.ValidMemberBooking001"/>
+			<class name="com.aoyou.test.cases.orderservice.GetTravelNotification001"/>
+			<class name="com.aoyou.test.cases.orderservice.GetOrderDetailView001"/>
+			<class name="com.aoyou.test.cases.orderservice.GetGroupOrderFeeDetail001"/>
+			<class name="com.aoyou.test.cases.orderservice.GetOrderBasicData001"/>
+			<class name="com.aoyou.test.cases.orderservice.GetTravelers001"/>
+			<class name="com.aoyou.test.cases.orderservice.GetOrderStatus001"/>
+			<class name="com.aoyou.test.cases.orderservice.GetOrderType001"/>
+			<class name="com.aoyou.test.cases.orderservice.GetOrderSubType001"/>
+			<class name="com.aoyou.test.cases.orderservice.GetOrderPriceDetails001"/>
+			<class name="com.aoyou.test.cases.orderservice.GetOrderPriceList001"/>
+			<class name="com.aoyou.test.cases.orderservice.GetOrderRoomNumber001"/>
+			<class name="com.aoyou.test.cases.orderservice.IsCombinedOrder001"/>
+			
+		</classes>
+	</test>
+	
+</suite>
